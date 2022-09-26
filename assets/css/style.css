@@ -205,6 +205,10 @@ html {
     vertical-align: middle;
 }
 
+.tour-places-item .tour-places-img:hover {
+    opacity: 0.6;
+}
+
 .tour-places-item .tour-places-content {
     background-color: white;
     color: black;
@@ -230,4 +234,106 @@ html {
     margin-bottom: 16px;
     padding: 8px 16px;
     border: 2px outset #000
+}
+
+.tour-places-content .buy-tickets-button:hover {
+    background-color: #ccc;
+    color: #000;
+    border: 2px solid #ccc
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container {
+    position: relative;
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+}
+
+.modal-header {
+    display: flex;
+    height: 130px;
+    background-color: #009688;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px;
+    letter-spacing: 4px;
+    font-weight: 400px;
+    font-size: 30px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #009688;
+}
+
+.modal-label {
+    display: flex;
+    margin: 15px 0px;
+    font-size: 15px;
+}
+
+.modal-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    display: block;
+}
+
+#buy-tickets:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#buy-tickets {
+    margin: 16px 0px;
+    padding: 16px;
+    background-color: #009688;
+    width: 100%;
+    display: block;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.modal-body {
+    padding: 0.01em 16px;
+}
+
+.modal-footer {
+    padding: 0.01em 16px;
+}
+
+.modal-close-button {
+    margin: 16px 0px;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+}
+
+.modal-close-button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.modal-help {
+    float: right;
+    margin-top: 16px;
 }
